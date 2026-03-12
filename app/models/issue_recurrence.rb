@@ -1,4 +1,4 @@
-class IssueRecurrence < ActiveRecord::Base
+class IssueRecurrence < ApplicationRecord
   include Redmine::Utils::DateCalculation
 
   belongs_to :issue, validate: true

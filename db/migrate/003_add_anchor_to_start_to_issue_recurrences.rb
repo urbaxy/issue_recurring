@@ -55,7 +55,7 @@ class AddAnchorToStartToIssueRecurrences < ActiveRecord::Migration[4.2]
       {mode: @@new_modes[:monthly_wday_to_last], anchor_to_start: false},
   }
 
-  class IssueRecurrence < ActiveRecord::Base
+  class IssueRecurrence < ApplicationRecord
   end
 
   def up

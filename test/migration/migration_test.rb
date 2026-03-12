@@ -28,7 +28,7 @@ class MigrationsTest < IssueRecurringIntegrationTestCase
     @issue2 = issues(:issue_02)
   end
 
-  class IssueRecurrence < ActiveRecord::Base
+  class IssueRecurrence < ApplicationRecord
   end
 
   def test_migrate_with_no_recurrences
