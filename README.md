@@ -55,7 +55,7 @@ The most notable features of this plugin include:
 
    |Redmine |Compatible plugin versions|Tested with                                                                                                        |
    |--------|--------------------------|-------------------------------------------------------------------------------------------------------------------|
-   |6.1     |1.7 -                     |Redmine 6.1.16.1.table, Ruby 3.3.8-p144, Rails 7.2.3                                                               |
+   |6.1     |1.7 -                     |Redmine 6.1.1.stable, Ruby 3.3.8-p144, Rails 7.2.3                                                                 |
 
    You may try and find this plugin working on other versions too. The best is to
    run test suite and if it passes without errors, everything will most
